@@ -67,4 +67,58 @@
 p{
     margin-top: 30px;
 }
-
+.boxCont{
+    background-image: url("./hotel.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 770px;
+    position: relative;
+    
+}
+.result-card{
+    position: absolute;
+    height: 600px;
+    width: 500px;
+    background-color: white;
+   top: 10%;
+   left: 35%;
+   padding: 30px;
+   border-radius: 5px;
+   
+   
+}
+.input1{
+    height: 40px;
+    width: 100%;
+    margin-bottom: 50px;
+    
+}
+.input-fields{
+    height: 250px;
+    width: 80%;
+    /* background-color: pink; */
+    margin: 50px 45px;
+}
+input{
+    padding: 15px;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(10, 92, 92);
+    color: white;
+    
+}
+::placeholder{
+ color: white;
+}
+h2{
+    animation: slide .5s ease-in-out;
+}
+@keyframes slide{
+    from{
+        transform: translateX(-100%);
+    }
+    
+}
